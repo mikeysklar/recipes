@@ -14,6 +14,7 @@ Standalone markdown recipes for Claude
 | [`kicad2freecad-enclosures/kicad-to-freecad-enclosure.md`](kicad2freecad-enclosures/kicad-to-freecad-enclosure.md) | Parallel-agent KiCad-to-FreeCAD enclosure pipeline |
 | [`feather-pcb/feather-pcb.md`](feather-pcb/feather-pcb.md) | Measured Adafruit Feather PCB house style |
 | [`p4hil/p4hil-bring-up.md`](p4hil/p4hil-bring-up.md) | Lessons driving real HIL hardware bring-up |
+| [`debug/etm-super-debug-metrorp2350.md`](debug/etm-super-debug-metrorp2350.md) | ETM instruction trace via SWD, no J-Trace |
 
 ## License
 
