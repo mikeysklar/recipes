@@ -5,6 +5,8 @@ Point this file at a repo link and Claude will pull every open PR, score
 each one on five concerns, and render a single dashboard sorted worst-first
 so you know which PRs deserve a close read before opening any of them.
 
+![Example output — hathach/tinyusb PR queue dashboard](example.png)
+
 This is a **read-only reconnaissance pass**. It never approves, merges,
 closes, or comments — it's the filter that decides where to look harder,
 not a substitute for actually reading a flagged PR.
