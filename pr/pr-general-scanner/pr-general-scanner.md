@@ -101,9 +101,8 @@ gh api "repos/$OWNER/$REPO/contents/.github/CODEOWNERS" 2>/dev/null --jq -r '.co
 Line comments and issue comments don't carry PR outcome, author, or diff
 size. Join against GraphQL metadata, batched (GraphQL doesn't page well for
 bulk lookups by number, so batch by number list instead — see
-`data/fetch_meta.sh` and `data/worker.sh` in this directory for a working
-batching script against `adafruit/circuitpython`; swap the two hardcoded
-`owner`/`name` strings and the input number list to reuse it directly).
+`data/fetch_meta.sh` in this directory: set `$OWNER`/`$REPO`, drop a
+`nums.txt` of PR/issue numbers next to it, and run it directly).
 
 The query shape:
 
