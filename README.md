@@ -1,7 +1,6 @@
 # recipes
 
-Standalone markdown recipes for Claude — point one at a repo or a link and
-it reproduces a specific view or pass, without any project-specific setup.
+Standalone markdown recipes for Claude
 
 ## Index
 
